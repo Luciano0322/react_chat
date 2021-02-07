@@ -2,6 +2,7 @@ import MessageForm from './MessageForm';
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 
+//主要傳輸內容，驅動進入聊天室時中間的內容
 const ChatFeed = (props) => {
     const { chats, activeChat, userName, messages } = props;
     const chat = chats && chats[activeChat];
